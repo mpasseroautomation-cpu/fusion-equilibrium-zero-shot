@@ -1,0 +1,11 @@
+.venv/
+starter/
+cache/
+submissions/
+logs/
+__pycache__/
+*.pyc
+.env
+manifest.json
+submission_pointer.zip
+sync_from_workspace.sh
