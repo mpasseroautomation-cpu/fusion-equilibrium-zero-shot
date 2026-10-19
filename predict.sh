@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Inference on the Final-phase inputs (Sophelio/fusion-equilibrium-challenge-final at REVISION):
+# Inference on the Final-phase inputs (ganatma/fusion-equilibrium-challenge-final at REVISION):
 #   usage: bash predict.sh <final-repo-revision> [name]
 # Writes submissions/<name>/diii_d_private_test.npz and mast_private_test.npz.
 set -euo pipefail

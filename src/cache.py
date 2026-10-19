@@ -63,8 +63,8 @@ N_EVAL = 60
 CONFIG_MACHINE = {"diii_d_train": "DIII-D", "diii_d_public_test": "DIII-D", "mast_public_test": "MAST",
                   "diii_d_private_test": "DIII-D", "mast_private_test": "MAST"}
 PUBLIC_CONFIGS = ("diii_d_train", "diii_d_public_test", "mast_public_test")
-# Final phase (Oct 19-26): blind inputs published separately (starter issue #12 answer, 2026-10-07)
-REPO_FINAL = "Sophelio/fusion-equilibrium-challenge-final"
+# Final phase (Oct 19-26): blind inputs published separately; repo per the starter kit commit 4b6af06 (2026-10-18)
+REPO_FINAL = "ganatma/fusion-equilibrium-challenge-final"
 FINAL_CONFIGS = ("diii_d_private_test", "mast_private_test")
 
 MEAN_HALF_MS = 1.0     # coil currents: mean of samples within ±1 ms of the EFIT time

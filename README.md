@@ -35,8 +35,8 @@ The MAST side has nothing to train: it is a physics solve (`src/gs_solver.py`, `
 
 ## Inference entrypoint (regenerates the submitted files)
 ```
-bash predict.sh <revision of Sophelio/fusion-equilibrium-challenge-final>
-#  1. python src/cache.py --final <revision>              Final-phase inputs (organizers' Thomson time rule applied)
+bash predict.sh <revision of ganatma/fusion-equilibrium-challenge-final>
+#  1. python src/cache.py --final <revision>              Final-phase inputs from ganatma/fusion-equilibrium-challenge-final (Thomson time rule applied)
 #  2. python src/predict_d3d.py --split private            -> submissions/final/diii_d_private_test.npz     seconds
 #  3. python src/mast_physics.py --role final --kinetic --max-iter 60 --avg-last 25 --laser-row --hold-z --te 30 --jexp 1.0
 #  4. python src/assemble_submission.py --split private    -> submissions/final/mast_private_test.npz
